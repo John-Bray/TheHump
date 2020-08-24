@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+  <version type="int">2</version>
+  <flight-rules type="string">V</flight-rules>
+  <flight-type type="string">X</flight-type>
+  <estimated-duration-minutes type="int">0</estimated-duration-minutes>
+  <departure>
+    <airport type="string">ZPPP</airport>
+  </departure>
+  <destination>
+    <airport type="string">VECA</airport>
+    <runway type="string">23</runway>
+  </destination>
+  <route>
+    <wp>
+      <type type="string">navaid</type>
+      <departure type="bool">true</departure>
+      <ident type="string">ZPPP</ident>
+      <lon type="double">102.7435375</lon>
+      <lat type="double">24.9923625</lat>
+    </wp>
+    <wp n="1">
+      <type type="string">basic</type>
+      <ident type="string">LAKE</ident>
+      <lon type="double">100.664635</lon>
+      <lat type="double">26.547268</lat>
+    </wp>
+    <wp n="2">
+      <type type="string">basic</type>
+      <ident type="string">WP2</ident>
+      <lon type="double">98.867432</lon>
+      <lat type="double">26.904924</lat>
+    </wp>    
+    <wp n="3">
+      <type type="string">basic</type>
+      <ident type="string">WU10</ident>
+      <lon type="double">98.8701040</lon>
+      <lat type="double">27.0342188</lat>
+    </wp>
+    <wp n="4">
+      <type type="string">navaid</type>
+      <ident type="string">VYPT</ident>
+      <lon type="double">97.426268</lon>
+      <lat type="double">27.329921</lat>
+    </wp>
+    <wp n="5">
+      <type type="string">navaid</type>
+      <ident type="string">VE91</ident>
+      <lon type="double">97.0036695</lon>
+      <lat type="double">27.1935665</lat>
+    </wp>
+    <wp n="6">
+      <type type="string">runway</type>
+      <approach type="bool">true</approach>
+      <ident type="string">23</ident>
+      <icao type="string">VECA</icao>
+    </wp>
+  </route>
+</PropertyList>
